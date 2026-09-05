@@ -1,1 +1,10 @@
-/research/s31/results/full
+# S3.1 generated full-path datasets
+research/**/results/full/*_ticks.csv
+
+# Temporary tester artifacts
+research/**/tmp/
+research/**/cache/
+
+# Common MT5/generated files
+*.log
+*.tmp
