@@ -1,0 +1,16 @@
+IG	0	13:05:57.393	Startup	successfully initialized from start config "Z:\private\tmp\ramusen-s31-mt5\guard.ini"
+HO	2	13:06:02.469	Terminal	tester didn't start
+ER	0	13:06:03.236	Terminal	stopped with 0
+GH	0	13:07:56.789	Startup	successfully initialized from start config "Z:\private\tmp\ramusen-s31-mt5\guard.ini"
+GO	0	13:08:06.193	Tester	last test passed with result "some error after pass finished" in 0:00:00.000
+RI	0	13:08:06.630	Terminal	stopped with 0
+ID	0	13:08:04.945	Core 1	XAUUSD,M5 (MetaQuotes-Demo): generating based on real ticks
+FD	0	13:08:04.945	Core 1	2026.01.01 00:00:00   [RAMUSEN][ERROR] S31_INIT_FAILED_RESEARCH_CONTRACT
+PP	2	13:08:04.945	Core 1	tester stopped because OnInit returns non-zero code 1
+PH	0	13:08:04.998	Tester	automatic testing finished
+KI	0	13:08:05.048	Tester	automatic testing finished
+CS	0	13:08:04.920	Tester	XAUUSD,M5 (MetaQuotes-Demo): generating based on real ticks
+CS	0	13:08:04.941	RamusenEA (XAUUSD,M5)	2026.01.01 00:00:00   [RAMUSEN][ERROR] S31_INIT_FAILED_RESEARCH_CONTRACT
+CS	2	13:08:04.943	Tester	tester stopped because OnInit returns non-zero code 1
+CS	0	13:08:04.944	Tester	test Experts\S31Research\RamusenEA.ex5 on XAUUSD,M5 thread finished
+CS	0	13:08:05.230	Server	MetaTester 5 stopped

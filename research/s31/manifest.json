@@ -1,0 +1,51 @@
+{
+  "experiment": "S31_PAIRED_DELAY_MECHANISM_V2",
+  "status": "FROZEN_FOR_IMPLEMENTATION",
+  "data": "CONTAMINATED_JAN_AUG_2026",
+  "date": "2026-09-05",
+  "arms": {
+    "CONTROL": 0,
+    "DELAY_1": 60,
+    "DELAY_3": 180,
+    "DELAY_5": 300
+  },
+  "views": [
+    "COMMON_DEADLINE",
+    "EQUAL_HOLD"
+  ],
+  "hold_seconds": 600,
+  "quote_tolerance_ms": 30000,
+  "path_max_window_ms": 960000,
+  "cost_bps": [
+    0,
+    0.5,
+    1,
+    1.5,
+    2
+  ],
+  "atr": "M5 shift1 ATR14 at original event",
+  "stop_atr": 1.25,
+  "cutoff_exclusive": "2026-09-01T00:00:00",
+  "test_from": "2026.01.01",
+  "functional_to_exclusive": "2026.01.06",
+  "full_to_exclusive": "2026.08.31",
+  "bootstrap_draws": 10000,
+  "seed": 3103,
+  "trim_each_tail": 0.1,
+  "delay_selection": "all three equally; 95% and simultaneous conservative 98.333% day-cluster intervals",
+  "material_mae_increase_atr": 0.1,
+  "material_mfe_reduction_atr": 0.1,
+  "support_rule": "equal-hold mean,trimmed,exbest1 exceed CONTROL; paired mean,trim,exbest1,extop3>0; simultaneous CI lower>0; MAE delta <=.10 original ATR, MFE delta>=-.10 ATR; each Jan-Mar/Apr-Jun/Jul-Aug mean delta>0; leave-one-month-out mean delta>0",
+  "rejection_rule": "every delay fails mean or robust equal-hold improvement (mean<=0 or paired trim<=0 or paired exbest1<=0); otherwise INCONCLUSIVE unless support gate passes",
+  "minimum_coverage": 0.99,
+  "full_event_reference": "existing S30: 433 events (nominal Jan-Aug export actually ends Aug28)",
+  "normal_missing": [
+    "ENTRY_MISSING",
+    "EXIT_MISSING",
+    "PENDING_AT_SHUTDOWN"
+  ],
+  "new_delays_permitted": false,
+  "layers": false,
+  "trading": false,
+  "s3b_implementation_in_s31": false
+}

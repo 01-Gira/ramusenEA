@@ -1,0 +1,66 @@
+
+
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Experts\S31Research\RamusenEA.mq5 : information: compiling Z:\private\tmp\ramusen-s31-mt5\MQL5\Experts\S31Research\RamusenEA.mq5
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Experts\S31Research\RamusenEA.mq5 : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\RamusenEA\Config.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Experts\S31Research\RamusenEA.mq5 : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\RamusenEA\Types.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Experts\S31Research\RamusenEA.mq5 : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\RamusenEA\Market.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Experts\S31Research\RamusenEA.mq5 : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\RamusenEA\RiskManager.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Experts\S31Research\RamusenEA.mq5 : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\RamusenEA\Execution.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\RamusenEA\Execution.mqh : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\Trade\Trade.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\Trade\Trade.mqh : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\Object.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\Object.mqh : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\StdLibErr.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\Trade\Trade.mqh : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\Trade\OrderInfo.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\Trade\Trade.mqh : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\Trade\HistoryOrderInfo.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\Trade\Trade.mqh : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\Trade\PositionInfo.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\Trade\Trade.mqh : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\Trade\DealInfo.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Experts\S31Research\RamusenEA.mq5 : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\RamusenEA\PositionManager.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Experts\S31Research\RamusenEA.mq5 : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\RamusenEA\TradeJournal.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\RamusenEA\TradeJournal.mqh : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\RamusenEA\TradeDiagnostics.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Experts\S31Research\RamusenEA.mq5 : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\RamusenEA\SignalEngine.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Experts\S31Research\RamusenEA.mq5 : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\RamusenEA\SignalResearch.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Experts\S31Research\RamusenEA.mq5 : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\RamusenEA\ScalpingContext.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Experts\S31Research\RamusenEA.mq5 : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\RamusenEA\ScalpingEntryGate.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Experts\S31Research\RamusenEA.mq5 : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\RamusenEA\ScalpingExcursionResearch.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Experts\S31Research\RamusenEA.mq5 : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\RamusenEA\ScalpingTimeExitResearch.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Experts\S31Research\RamusenEA.mq5 : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\RamusenEA\ScalpingProfitRetentionResearch.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Experts\S31Research\RamusenEA.mq5 : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\RamusenEA\ScalpingAdaptiveProfitRetentionResearch.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Experts\S31Research\RamusenEA.mq5 : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\RamusenEA\ScalpingCandidateS2Research.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Experts\S31Research\RamusenEA.mq5 : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\RamusenEA\ScalpingControlledLayerResearch.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Experts\S31Research\RamusenEA.mq5 : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\RamusenEA\S30EventGeneratorControlResearch.mqh
+Z:\private\tmp\ramusen-s31-mt5\MQL5\Experts\S31Research\RamusenEA.mq5 : information: including Z:\private\tmp\ramusen-s31-mt5\MQL5\Include\RamusenEA\S31PairedDelayedEntryResearch.mqh
+ : information: generating code
+ : information: generating code 3%
+ : information: generating code 6%
+ : information: generating code 9%
+ : information: generating code 12%
+ : information: generating code 15%
+ : information: generating code 18%
+ : information: generating code 21%
+ : information: generating code 24%
+ : information: generating code 27%
+ : information: generating code 30%
+ : information: generating code 33%
+ : information: generating code 36%
+ : information: generating code 39%
+ : information: generating code 42%
+ : information: generating code 45%
+ : information: generating code 48%
+ : information: generating code 51%
+ : information: generating code 54%
+ : information: generating code 57%
+ : information: generating code 60%
+ : information: generating code 63%
+ : information: generating code 66%
+ : information: generating code 69%
+ : information: generating code 72%
+ : information: generating code 75%
+ : information: generating code 78%
+ : information: generating code 81%
+ : information: generating code 84%
+ : information: generating code 87%
+ : information: generating code 90%
+ : information: generating code 93%
+ : information: generating code 95%
+ : information: generating code 100%
+ : information: code generated
+Result: 0 errors, 0 warnings, 3226 ms elapsed, cpu='X64 Regular'

@@ -1,0 +1,98 @@
+{
+  "decision": "DELAY_MECHANISM_REJECTED",
+  "classification": "CONTAMINATED_MECHANISM_RESEARCH_ONLY",
+  "cohort_counts": {
+    "COMMON_DEADLINE": 430,
+    "EQUAL_HOLD": 428
+  },
+  "complete_case_coverage": {
+    "COMMON_DEADLINE": 0.9930715935334873,
+    "EQUAL_HOLD": 0.9884526558891455
+  },
+  "coverage_and_sample_gate": false,
+  "delays": {
+    "DELAY_1": {
+      "criteria": {
+        "mean": false,
+        "absolute_trim": false,
+        "absolute_exbest1": false,
+        "paired_trim": false,
+        "paired_exbest1": false,
+        "paired_extop3": false,
+        "simultaneous_ci": false,
+        "mae_noninferior": true,
+        "mfe_noninferior": true,
+        "chronology": false,
+        "leave_one_month_out": false
+      },
+      "supported": false,
+      "robust_failure": true,
+      "leave_one_month_out_means": {
+        "2026.01": -0.24647385904014907,
+        "2026.02": -0.39343279808002624,
+        "2026.03": -0.651274886344237,
+        "2026.04": -0.3973607136452735,
+        "2026.05": -0.5438533568586574,
+        "2026.06": -0.6148118800075847,
+        "2026.07": -0.7929753337364528,
+        "2026.08": -0.5303062863274962
+      }
+    },
+    "DELAY_3": {
+      "criteria": {
+        "mean": false,
+        "absolute_trim": false,
+        "absolute_exbest1": false,
+        "paired_trim": false,
+        "paired_exbest1": false,
+        "paired_extop3": false,
+        "simultaneous_ci": false,
+        "mae_noninferior": true,
+        "mfe_noninferior": true,
+        "chronology": false,
+        "leave_one_month_out": false
+      },
+      "supported": false,
+      "robust_failure": true,
+      "leave_one_month_out_means": {
+        "2026.01": -0.28834065702939843,
+        "2026.02": -0.6093481712014712,
+        "2026.03": -0.8313419074406785,
+        "2026.04": -1.0415899784623563,
+        "2026.05": -1.0012542373612183,
+        "2026.06": -1.037378140248183,
+        "2026.07": -1.126721519619143,
+        "2026.08": -0.9757224290049723
+      }
+    },
+    "DELAY_5": {
+      "criteria": {
+        "mean": false,
+        "absolute_trim": false,
+        "absolute_exbest1": false,
+        "paired_trim": false,
+        "paired_exbest1": false,
+        "paired_extop3": false,
+        "simultaneous_ci": false,
+        "mae_noninferior": true,
+        "mfe_noninferior": true,
+        "chronology": false,
+        "leave_one_month_out": false
+      },
+      "supported": false,
+      "robust_failure": true,
+      "leave_one_month_out_means": {
+        "2026.01": -0.7311892003511441,
+        "2026.02": -0.9711554016678638,
+        "2026.03": -1.4371181583714414,
+        "2026.04": -1.8428637628998867,
+        "2026.05": -1.5074206066652958,
+        "2026.06": -1.1831739799116805,
+        "2026.07": -1.328587272419469,
+        "2026.08": -1.5583002918291915
+      }
+    }
+  },
+  "cost_note": "Same one-ticket bps charge cancels in paired bps differences; absolute net expectancy still deteriorates.",
+  "coverage_note": "A failed 99% coverage flag blocks support, not the user-defined negative verdict on observed paired opportunities; missing outcomes remain unknown."
+}

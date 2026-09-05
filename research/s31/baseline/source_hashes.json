@@ -1,0 +1,22 @@
+{
+  "Include/RamusenEA/ScalpingEntryGate.mqh": "79ee1ea650feaf96244228eb037a84e5167d7adbb64d3b42f9a1e4dfda6a9bbe",
+  "Include/RamusenEA/RiskManager.mqh": "703ac1f4a03190ebba67cf0b5494b7dba19f5e19d237e6c106784a6aa2fe1e5a",
+  "Include/RamusenEA/ScalpingTimeExitResearch.mqh": "c7a262c52ab9b1318d51e55614bc236863ffd43bb74a284e5c208c45cef31702",
+  "Include/RamusenEA/ScalpingCandidateS2Research.mqh": "7bd171e6f817cac1e8c00df8f92f65d6afde6a41e4919ab423adf037cf5fc624",
+  "Include/RamusenEA/ScalpingAdaptiveProfitRetentionResearch.mqh": "7468430ef344aad27367959510df1605d456606c250dae4d9c157b67e33c767d",
+  "Include/RamusenEA/TradeJournal.mqh": "c4861f403a355425d5fe93d95ac5b8093551dfb4a3e17df8a415f02995af88aa",
+  "Include/RamusenEA/ScalpingExcursionResearch.mqh": "0aea06790d4399ff52c3f0b1a7e0b45617634e7f6cdfe8e04d62ed862d9ba2e8",
+  "Include/RamusenEA/SignalResearch.mqh": "53b1d000a75f5769e0397bd67c913007a716434d7641f907aa2e95f6c8a64221",
+  "Include/RamusenEA/ScalpingProfitRetentionResearch.mqh": "c81d9e34b4146462d711d2d7279b258baf17f3cb27e2ee6628d58425bca53702",
+  "Include/RamusenEA/PositionManager.mqh": "b90fb485917f252cc3c68dad5e40706bdc465b88077f61f0987c66604a6d03b0",
+  "Include/RamusenEA/Market.mqh": "2fda50d94c5311a22500f275bc660afdf7b61e8081424e29e16a6af8538a44fd",
+  "Include/RamusenEA/Types.mqh": "6dd9eeda7d7c44eb9b67160a95cf03f2de8bf17c24688a04926184a52ee49461",
+  "Include/RamusenEA/ScalpingControlledLayerResearch.mqh": "1724156fd89f6ad187c77b2ea0124e640ce9f90c298ea97d1b9999a18d4fd9d2",
+  "Include/RamusenEA/SignalEngine.mqh": "89276a9a2640f98b6505d1628eb4f8b5608a54bb789d15bc8ee72df7581b14e9",
+  "Include/RamusenEA/ScalpingContext.mqh": "b6d816c4fdc7d6be42c6eb329502c9cbfb3bcbd58c56ee3d8e1483ccd127eeaf",
+  "Include/RamusenEA/S30EventGeneratorControlResearch.mqh": "860ebb4311f3ea093ee7184765c3ee4d0e7abce59f8300ef9202527400b6ec24",
+  "Include/RamusenEA/Config.mqh": "cb0641e6c9c0592593807944ba15fea7d9365eec40641c3360043ea531198c27",
+  "Include/RamusenEA/Execution.mqh": "3e1d75e7d439db42e421ff56efec4c20559ca37bed07074ffd06c01ee14d0d08",
+  "Include/RamusenEA/TradeDiagnostics.mqh": "910abfdd522f4c5bf6a6aa0a444d64e257ed06b2ca46b1d07d01a31603005985",
+  "Experts/RamusenEA/RamusenEA.mq5": "15c5432ba9e350ef2cf197cc3608e963f210a5e47a9a34512aaa282bc2f6f9ad"
+}

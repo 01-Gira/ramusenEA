@@ -1,0 +1,13 @@
+CS	0	13:09:38.390	Tester	final balance 10000.00 USD
+CS	0	13:09:38.390	RamusenEA (XAUUSD,M5)	2026.01.05 23:59:33   [RAMUSEN][INFO] S31_SUMMARY events=1
+CS	0	13:09:38.398	Tester	test Experts\S31Research\RamusenEA.ex5 on XAUUSD,M5 thread finished
+CS	0	13:11:49.659	Tester	XAUUSD,M5 (MetaQuotes-Demo): generating based on real ticks
+CS	0	13:11:49.660	Tester	  InpEnableTrading=false
+CS	0	13:11:49.660	Tester	  InpP2F14ControlledLayerResearchEnabled=false
+CS	0	13:11:49.660	Tester	  InpS30EventGeneratorControlResearchEnabled=true
+CS	0	13:11:49.660	Tester	  InpS31PairedDelayedEntryResearchEnabled=true
+CS	0	13:11:49.723	RamusenEA (XAUUSD,M5)	2026.01.01 00:00:00   [RAMUSEN][INFO] S31_READY RamusenEA_s31_1767225600_37588 directory=C:\users\ramusen\AppData\Roaming\MetaQuotes\Terminal\Common\Files
+CS	0	13:11:57.847	Ticks	XAUUSD : real ticks begin from 2026.01.02 00:00:00
+CS	0	13:12:48.085	Tester	final balance 10000.00 USD
+CS	0	13:12:48.086	RamusenEA (XAUUSD,M5)	2026.08.28 22:59:59   [RAMUSEN][INFO] S31_SUMMARY events=433
+CS	0	13:12:48.119	Tester	test Experts\S31Research\RamusenEA.ex5 on XAUUSD,M5 thread finished

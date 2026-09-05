@@ -1,0 +1,53 @@
+--- before/Include/RamusenEA/Config.mqh
++++ after/Include/RamusenEA/Config.mqh
+@@ -114,4 +114,7 @@
+ 
+ input bool InpS30EventGeneratorControlResearchEnabled = false;
+ 
++// S3.1 paired timing mechanism: research only, no orders or layers.
++input bool InpS31PairedDelayedEntryResearchEnabled = false;
++
+ #endif--- before/Experts/RamusenEA/RamusenEA.mq5
++++ after/Experts/RamusenEA/RamusenEA.mq5
+@@ -25,6 +25,7 @@
+ #include <RamusenEA/ScalpingCandidateS2Research.mqh>
+ #include <RamusenEA/ScalpingControlledLayerResearch.mqh>
+ #include <RamusenEA/S30EventGeneratorControlResearch.mqh>
++#include <RamusenEA/S31PairedDelayedEntryResearch.mqh>
+ 
+ CMarket          Market;
+ CRiskManager     RiskManager;
+@@ -42,9 +43,14 @@
+ CScalpingCandidateS2Research ScalpingCandidateS2Research;
+ CScalpingControlledLayerResearch ScalpingControlledLayerResearch;
+ CS30EventGeneratorControlResearch S30EventGeneratorControlResearch;
++CS31PairedDelayedEntryResearch S31PairedDelayedEntryResearch;
+ 
+ int OnInit()
+ {
++   if(InpS31PairedDelayedEntryResearchEnabled
++      && !S31PairedDelayedEntryResearch.Initialize(_Symbol,(ENUM_TIMEFRAMES)_Period))
++      return INIT_FAILED;
++
+    Journal.Info(
+       StringFormat(
+          "EA_INITIALIZED symbol=%s timeframe=%s trading=%s",
+@@ -594,6 +600,8 @@
+ 
+    ScalpingAdaptiveProfitRetentionResearch.Shutdown();
+    
++   S31PairedDelayedEntryResearch.Shutdown();
++
+    ScalpingControlledLayerResearch.Shutdown();
+ 
+    S30EventGeneratorControlResearch.Shutdown();
+@@ -614,6 +622,9 @@
+ 
+ void OnTick()
+ {
++   if(InpS31PairedDelayedEntryResearchEnabled)
++      S31PairedDelayedEntryResearch.OnTick();
++
+    MarketSnapshot market;
+ 
+    if(!Market.Snapshot(_Symbol, market))

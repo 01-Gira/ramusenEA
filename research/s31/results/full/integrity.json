@@ -1,0 +1,15 @@
+{
+  "integrity": "PASS",
+  "events": 433,
+  "rows": 3464,
+  "ticks": 3435431,
+  "status_counts": {
+    "OK": 3438,
+    "EXIT_MISSING": 24,
+    "ENTRY_MISSING": 2
+  },
+  "s30_matched_events": 433,
+  "errors": [],
+  "error_count": 0,
+  "source_csv_sha256": "6c71eff861f895b0a452255ab0c4db7a98c695fbe9bc06915eb105eda1aa1f09"
+}

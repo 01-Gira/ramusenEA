@@ -1,0 +1,17 @@
+experiment=S31_PAIRED_DELAY_MECHANISM_V2
+trading=false
+layering=false
+research_only=true
+cutoff_exclusive=2026.09.01
+tick_provenance=CopyTicksRange_requires_tester_log_verification
+delay_seconds=0,60,180,300
+views=COMMON_DEADLINE,EQUAL_HOLD
+hold_seconds=600
+server=MetaQuotes-Demo
+terminal_build=6180
+events=433
+rows=3464
+ok=3438
+missing=26
+pending=0
+integrity=OK

@@ -1,0 +1,9 @@
+{
+  "no_future_outcomes_in_outputs": true,
+  "unique_opportunity_arm_rows": true,
+  "paired_return_recalculation": true,
+  "control_increments_zero": true,
+  "source_files": 20,
+  "production_changes": 0,
+  "note": "Source hashes recorded after read-only audit; no MQL5 files written."
+}

@@ -1,0 +1,13 @@
+{
+  "integrity": "PASS",
+  "events": 1,
+  "rows": 8,
+  "ticks": 9312,
+  "status_counts": {
+    "OK": 8
+  },
+  "s30_matched_events": 1,
+  "errors": [],
+  "error_count": 0,
+  "source_csv_sha256": "fdf57c7541ebd7131e39ea7d35f92d69fe35296a61e943cb2ce5e7c2af392bdc"
+}

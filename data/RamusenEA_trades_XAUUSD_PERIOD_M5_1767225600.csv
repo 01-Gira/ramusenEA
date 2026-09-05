@@ -1,0 +1,1 @@
+time,event,position_id,deal_id,order_id,symbol,timeframe,magic,position_side,deal_side,entry_type,volume,price,profit,commission,swap,fee,net_pnl,deal_reason,balance_after,decision_time,strategy_signal,fast_ema_bar2,slow_ema_bar2,fast_ema_bar1,slow_ema_bar1,spread_points,decision_bid,decision_ask,planned_sl,planned_tp,strategy_exit_reason
