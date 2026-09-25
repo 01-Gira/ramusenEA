@@ -1,0 +1,43 @@
+; ASTRA HFC3 TickRobust — SEARCH A / exactly 160 combinations
+; Run ONLY after SINGLE_DEFAULT passes the simple alpha gate.
+; Search dimensions: EntryZ 5 × MAPeriod 4 × ADXMax 4 × H1 filter 2 = 160
+; Recommended window: 2026.01.02 - 2026.04.30
+; Slow complete algorithm | Every tick based on real ticks | Custom max
+InpTradeSymbol=XAUUSDm
+InpEntryZ=2.2||1.8||0.200000||2.6||Y
+InpRequireTurn=true||false||0||true||N
+InpExitZ=0.2||0.2||0.100000||0.2||N
+InpMaxHoldBars=40||40||1||40||N
+InpSLPoints=800.0||800.0||10.000000||800.0||N
+InpSLATRMult=2.5||2.5||0.100000||2.5||N
+InpBreakevenATR=1.0||1.0||0.100000||1.0||N
+InpStartHour=10||10||1||10||N
+InpEndHour=20||20||1||20||N
+InpFridayCloseHour=20||20||1||20||N
+InpCooldownMins=15||15||1||15||N
+InpMagic=777555||777555||1||777555||N
+InpResearchFixedLot=true||false||0||true||N
+InpFixedLot=0.01||0.01||0.010000||0.01||N
+InpWriteAuditCsv=false||false||0||true||N
+InpAuditPrefix=HFC3_SEARCH_A
+InpExtraCostPts=0.0||0.0||1.000000||0.0||N
+InpMinSDCostMult=3.0||3.0||0.100000||3.0||N
+InpMinTPCostMult=4.0||4.0||0.100000||4.0||N
+InpMaxSpreadPts=50.0||50.0||1.000000||50.0||N
+InpMAPeriod=20||15||5||30||Y
+InpATRPeriod=14||14||1||14||N
+InpADXPeriod=14||14||1||14||N
+InpADXMax=22.0||18.0||4.000000||30.0||Y
+InpFilterPeriodH1=50||0||50||50||Y
+InpATRAvgPeriod=50||50||1||50||N
+InpMaxATRRatio=2.0||2.0||0.100000||2.0||N
+InpMinATRRatio=0.4||0.4||0.100000||0.4||N
+InpUseDynamicRisk=false||false||0||true||N
+InpRiskPct=0.10||0.10||0.100000||0.10||N
+InpSlippage=30||30||1||30||N
+InpUseNewsFilter=false||false||0||true||N
+InpNewsMinsBefore=60||60||1||60||N
+InpNewsMinsAfter=120||120||1||120||N
+InpCloseBeforeNews=false||false||0||true||N
+InpUseDailyLossLimit=false||false||0||true||N
+InpMaxDailyLossPct=15.0||15.0||1.000000||15.0||N
