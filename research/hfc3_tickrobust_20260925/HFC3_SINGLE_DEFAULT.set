@@ -1,0 +1,38 @@
+; ASTRA HFC3 TickRobust Research - SINGLE DEFAULT
+; MT5 Strategy Tester: XAUUSDm / M1 / Every tick based on real ticks / Fixed delay 1000 ms
+; Deposit: 1000 USD, leverage 1:500, hedging, Optimization Disabled
+InpTradeSymbol=XAUUSDm
+InpEntryZ=2.2
+InpRequireTurn=true
+InpExitZ=0.2
+InpMaxHoldBars=40
+InpSLPoints=800
+InpSLATRMult=2.5
+InpBreakevenATR=1.0
+InpStartHour=10
+InpEndHour=20
+InpFridayCloseHour=20
+InpCooldownMins=15
+InpMagic=777555
+InpExtraCostPts=0.0
+InpMinSDCostMult=3.0
+InpMinTPCostMult=4.0
+InpMaxSpreadPts=50.0
+InpMAPeriod=20
+InpATRPeriod=14
+InpADXPeriod=14
+InpADXMax=22.0
+InpFilterPeriodH1=50
+InpATRAvgPeriod=50
+InpMaxATRRatio=2.0
+InpMinATRRatio=0.4
+InpUseDynamicRisk=false
+InpRiskPct=0.10
+InpFixedLot=0.01
+InpSlippage=30
+InpUseNewsFilter=false
+InpNewsMinsBefore=60
+InpNewsMinsAfter=120
+InpCloseBeforeNews=false
+InpUseDailyLossLimit=false
+InpMaxDailyLossPct=99.0
