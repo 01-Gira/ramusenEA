@@ -1,0 +1,37 @@
+; ASTRA HFC3 TickRobust Research - SEARCH A (160 passes)
+; Use Slow complete algorithm, Jan 2-Apr 30 2026 only.
+InpTradeSymbol=XAUUSDm
+InpEntryZ=2.2||1.8||0.2||2.6||Y
+InpRequireTurn=true
+InpExitZ=0.2
+InpMaxHoldBars=40
+InpSLPoints=800
+InpSLATRMult=2.5
+InpBreakevenATR=1.0
+InpStartHour=10
+InpEndHour=20
+InpFridayCloseHour=20
+InpCooldownMins=15
+InpMagic=777555
+InpExtraCostPts=0.0
+InpMinSDCostMult=3.0
+InpMinTPCostMult=4.0
+InpMaxSpreadPts=50.0
+InpMAPeriod=20||15||5||30||Y
+InpATRPeriod=14
+InpADXPeriod=14
+InpADXMax=22.0||18.0||4.0||30.0||Y
+InpFilterPeriodH1=50||0||50||50||Y
+InpATRAvgPeriod=50
+InpMaxATRRatio=2.0
+InpMinATRRatio=0.4
+InpUseDynamicRisk=false
+InpRiskPct=0.10
+InpFixedLot=0.01
+InpSlippage=30
+InpUseNewsFilter=false
+InpNewsMinsBefore=60
+InpNewsMinsAfter=120
+InpCloseBeforeNews=false
+InpUseDailyLossLimit=false
+InpMaxDailyLossPct=99.0
