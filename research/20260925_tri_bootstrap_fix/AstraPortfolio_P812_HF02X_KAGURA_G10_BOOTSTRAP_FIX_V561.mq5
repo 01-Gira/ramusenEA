@@ -43,12 +43,12 @@ input bool   InpRequireExactSignalTicks      = true;
 input int    InpWarmupExactBars             = 300;
 input bool   InpDeterministicBootstrap      = true;
 input long   InpBootstrapHistoryStartSec    = 1767218220; // baseline first state bar: 2025-12-31 21:57 UTC
-input long   InpFrozenSignalStartSec        = 1767308700; // frozen Jan-Sep signal-start anchor: 2026-01-01 23:05 UTC
+input long   InpFrozenSignalStartSec        = 1767348060; // earliest frozen actionable bar: 2026-01-02 10:01 UTC
 input bool   InpWriteAuditCommon            = true;
 input bool   InpWriteCandidateAudit         = true;
 input bool   InpVerbose                     = false;
 
-#define V54_HISTORY_ANCHOR_SEC 1767308700 // legacy/frozen signal-start anchor
+#define V54_HISTORY_ANCHOR_SEC 1767348060 // legacy cache anchor
 #define V54_BASELINE_PREHISTORY_SEC 1767218220 // deterministic P812 parity prehistory
 
 CTrade g_trade;
@@ -337,7 +337,7 @@ bool WarmupSignalEngine()
         {
          Print("[P812-HF02X][FATAL] Tester starts after frozen signal anchor. current_open=",(long)current_open,
                " signal_start=",signal_start,
-               ". Start the Strategy Tester at/before the frozen Jan-Sep start.");
+               ". Start the Strategy Tester before the earliest frozen actionable bar.");
          return(false);
         }
      }
@@ -925,7 +925,7 @@ void OnDeinit(const int reason)
 
    if(g_pf_summary!=INVALID_HANDLE)
      {
-      FileWrite(g_pf_summary,"build","P812_HF02X_KAGURA_G10_TRI_BOOTSTRAP_FIX_V561_20260925");
+      FileWrite(g_pf_summary,"build","P812_HF02X_KAGURA_G10_TRI_BOOTSTRAP_FIX_V562_20260925");
       FileWrite(g_pf_summary,"deterministic_bootstrap",InpDeterministicBootstrap);
       FileWrite(g_pf_summary,"bootstrap_history_start_sec",InpBootstrapHistoryStartSec);
       FileWrite(g_pf_summary,"frozen_signal_start_sec",InpFrozenSignalStartSec);
